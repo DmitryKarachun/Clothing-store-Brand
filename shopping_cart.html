@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Product</title>
+    <title>Shoping Cart</title>
 </head>
 
 <body>
@@ -373,372 +373,121 @@
         </div>
     </section>
 
-    <div class="wraps">
-        <div class="wrapper_inner container">
-            <div class="left_block">
-                <div class="sidebar">
-                    <input type="checkbox" id="go1">
-                    <label for="go1" class="sidebar-title ">Category</label>
-                    <ul class="sidebar-subtitle menu1">
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Bags</a></li>
-                        <li><a href="#">Denim</a></li>
-                        <li><a href="#">Hoodies & Sweatshirts</a></li>
-                        <li><a href="#">Jackets & Coats</a></li>
-                        <li><a href="#">Pants</a></li>
-                        <li><a href="#">Polos</a></li>
-                        <li><a href="#">Shirts</a></li>
-                        <li><a href="#">Shoes</a></li>
-                        <li><a href="#">Shorts</a></li>
-                        <li><a href="#">Sweaters & Knits</a></li>
-                        <li><a href="#">T-Shirts</a></li>
-                        <li><a href="#">Tanks</a></li>
-                    </ul>
-                    <input type="checkbox" id="go2">
-                    <label for="go2" class="sidebar-title">Brand</label>
-                    <ul class="sidebar-subtitle menu2">
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Bags</a></li>
-                        <li><a href="#">Denim</a></li>
-                        <li><a href="#">Hoodies & Sweatshirts</a></li>
-                        <li><a href="#">Jackets & Coats</a></li>
-                        <li><a href="#">Pants</a></li>
-                        <li><a href="#">Polos</a></li>
-                        <li><a href="#">Shirts</a></li>
-                        <li><a href="#">Shoes</a></li>
-                        <li><a href="#">Shorts</a></li>
-                        <li><a href="#">Sweaters & Knits</a></li>
-                        <li><a href="#">T-Shirts</a></li>
-                        <li><a href="#">Tanks</a></li>
-                    </ul>
-                    <input type="checkbox" id="go3">
-                    <label for="go3" class="sidebar-title">Desinger</label>
-                    <ul class="sidebar-subtitle menu3">
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Bags</a></li>
-                        <li><a href="#">Denim</a></li>
-                        <li><a href="#">Hoodies & Sweatshirts</a></li>
-                        <li><a href="#">Jackets & Coats</a></li>
-                        <li><a href="#">Pants</a></li>
-                        <li><a href="#">Polos</a></li>
-                        <li><a href="#">Shirts</a></li>
-                        <li><a href="#">Shoes</a></li>
-                        <li><a href="#">Shorts</a></li>
-                        <li><a href="#">Sweaters & Knits</a></li>
-                        <li><a href="#">T-Shirts</a></li>
-                        <li><a href="#">Tanks</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="right_block">
-                <div class="top-filter">
-                    <div class="top-filter-trending">
-                        <h3 class="title-filter">Trending now</h3>
-                        <ul class="treding-list">
-                            <li><a href="" class="trending">Bohemian</a></li>
-                            <li><a href="" class="trending">Floral</a></li>
-                            <li><a href="" class="trending">Lace</a></li>
-                            <li><a href="" class="trending">Floral</a></li>
-                            <li><a href="" class="trending">Lace</a></li>
-                            <li><a href="" class="trending">Bohemian</a></li>
-                        </ul>
-                    </div>
-                    <div class="top-filter-size">
-                        <form action="#">
-                            <h3 class="title-filter">size</h3>
+    <div class="shoping_cart-wrapper">
+        <div class="shoping_cart__container container">
 
-                            <label class="checkbox-filter-size"><input type="checkbox" name="size1"
-                                    value="xxs">xxs</label>
-                            <label class="checkbox-filter-size"><input type="checkbox" name="size2"
-                                    value="xs">xs</label>
-                            <label class="checkbox-filter-size"><input type="checkbox" name="size3" value="s">s</label>
-                            <label class="checkbox-filter-size"><input type="checkbox" name="size4" value="m">m</label>
-                            <label class="checkbox-filter-size"><input type="checkbox" name="size5" value="l">l</label>
-                            <label class="checkbox-filter-size"><input type="checkbox" name="size6"
-                                    value="xl">xl</label>
-                            <label class="checkbox-filter-size"><input type="checkbox" name="size7"
-                                    value="xxl">xxl</label>
-                        </form>
-                    </div>
-                    <form class="top-filter-price">
-                        <h3 class="title-filter">Price</h3>
-                        <div class="polzunok-container-5">
-                            <div class="polzunok-5"></div>
-                            <div class="polzunok-input-5-container">
-                                <input type="text" class="polzunok-input-5-left" />
-                                <input type="text" class="polzunok-input-5-right" />
+            <table class="resp-tab">
+                <thead>
+                    <tr>
+                        <th>Product Details</th>
+                        <th>Unite Price</th>
+                        <th>Quantity</th>
+                        <th>Shipping</th>
+                        <th>Subtotal</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="shoping_cart-card">
+                                <div class="shoping_cart-img">
+                                    <img src="img/product/product_13.jpg" alt="">
+                                </div>
+                                <div class="shoping_cart-description">
+                                    <h3>Mango People T-shirt</h3>
+                                    <p> <span>Color:</span> Red</p>
+                                    <p><span>Size:</span> Xll</p>
+                                </div>
                             </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="sort">
-                    <form class="filter-sort-form">
-
-                        <div class="filter-sort">
-                            <label for="sort_by">Sort By</label>
-                            <select name="sort" id="sort_by">
-                                <option value="name">name</option>
-                                <option value="price">price</option>
-                            </select>
-                        </div>
-
-                        <div class="filter-sort">
-                            <label for="show">Show</label>
-                            <select name="show" id="show">
-                                <option value="03">03</option>
-                                <option value="06">06</option>
-                                <option value="09">09</option>
-                            </select>
-                        </div>
-
-                    </form>
-
-                </div>
-
-
-                <div class="product-main__content">
-                    <div class="product__body" style="display:none;">
-                        <div class="product__column">
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_13.jpg" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-                                        <div class="items_product-text">Mango People T-shirt</div>
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-price">$150</p>
+                        </td>
+                        <td>
+                            <form action="#">
+                                <input type="number" class="shoping_cart-quantity" name="number" id="" placeholder="2">
+                            </form>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-shiping">Free</p>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-subtotal">$300</p>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-action"><i class="fa fa-times-circle-o" aria-hidden="true"></i></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="shoping_cart-card">
+                                <div class="shoping_cart-img">
+                                    <img src="img/product/product_14.jpg" alt="">
+                                </div>
+                                <div class="shoping_cart-description">
+                                    <h3>Mango People T-shirt</h3>
+                                    <p> <span>Color:</span> Red</p>
+                                    <p><span>Size:</span> Xll</p>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="product__column">
-
-
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_14.jpg" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-price">$150</p>
+                        </td>
+                        <td>
+                            <form action="#" class="shoping_cart-quantity">
+                                <input type="number" name="number" id="" placeholder="2">
+                            </form>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-shiping">Free</p>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-subtotal">$300</p>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-action"><i class="fa fa-times-circle-o" aria-hidden="true"></i></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="shoping_cart-card">
+                                <div class="shoping_cart-img">
+                                    <img src="img/product/product_15.jpg" alt="">
+                                </div>
+                                <div class="shoping_cart-description">
+                                    <h3>Mango People T-shirt</h3>
+                                    <p> <span>Color:</span> Red</p>
+                                    <p><span>Size:</span> Xll</p>
+                                </div>
                             </div>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-price">$150</p>
+                        </td>
+                        <td>
+                            <form action="#" class="shoping_cart-quantity">
+                                <input type="number" name="number" id="" placeholder="2">
+                            </form>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-shiping">Free</p>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-subtotal">$300</p>
+                        </td>
+                        <td>
+                            <p class="shoping_cart-action"><i class="fa fa-times-circle-o" aria-hidden="true"></i></p>
+                        </td>
+                    </tr>
+                </tbody>
 
 
-                        </div>
-                        <div class="product__column">
 
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_03.png" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                        </div>
-                        <div class="product__column">
-
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_16.jpg" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                        </div>
-                        <div class="product__column">
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_08.png" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                        </div>
-                        <div class="product__column">
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_16.jpg" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                        </div>
-                        <div class="product__column">
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_06.png" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                        </div>
-                        <div class="product__column">
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_17.jpg" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="product__column">
-                            <div class="product__items">
-                                <a href="single_page.html" class="product__link">
-                                    <div class="items_product-img">
-                                        <img src="img/product/product_18.jpg" alt="Mango People T-shirt">
-                                        <div class="product-buttons">
-                                            <div class="button">Add to Cart</div>
-                                        </div>
-                                    </div>
-                                    <div class="items_product_content">
-
-                                        <div class="items_product-text">Mango People T-shirt</div>
-
-                                        <div class="items_product-price">52.00</div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="bottom_nav_block">
-                    <div class="module-pagination">
-                        <div class="pagination">
-                            <ul>
-                                <li class="page-item previous-page disable"><a class="page-link" href="">Prev
-                                        <!-- <i class="fa fa-angle-left " aria-hidden="true"></i> -->
-                                    </a></li>
-                                <li class="page-item current-page active"><a class="page-link" href="">1</a></li>
-                                <li class="page-item current-page"><a class="page-link" href="">2</a></li>
-                                <li class="page-item current-page"><a class="page-link" href="">3</a></li>
-                                <li class="page-item current-page"><a class="page-link" href="">4</a></li>
-                                <li class="page-item current-page"><a class="page-link" href="">5</a></li>
-                                <li class="page-item current-page"><a class="page-link" href="">6</a></li>
-                                <li class="page-item dots"><a class="page-link" href="">...</a></li>
-                                <li class="page-item next-page"><a class="page-link" href="">Next
-                                        <!-- <i class="fa fa-angle-right" aria-hidden="true"></i> -->
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <button class="view_all"></button>
-                </div>
-            </div>
-
+            </table>
         </div>
-
     </div>
-
-    <section>
-        <div class="feature feature-page_product">
-            <div class="feature__container container feature__container-page_product">
-                <div class="feature-items feature-items-page_product">
-                    <div class="item-feature item-feature-page_product ">
-                        <div class="item-feature-img"><img src="img/main/icon_car.png" alt="Free Delivery;">
-                        </div>
-                        <div class="item-feature-text item-feature-text-page_product ">
-                            <p>Free Delivery</p>
-                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                                extensive models.</p>
-                        </div>
-                    </div>
-                    <div class="item-feature item-feature-page_product ">
-                        <div class="item-feature-img"><img src="img/main/icon_sales.png" alt="sales"></div>
-                        <div class="item-feature-text item-feature-text-page_product ">
-                            <p>Sales & discounts</p>
-                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                                extensive models.</p>
-                        </div>
-                    </div>
-                    <div class="item-feature item-feature-page_product ">
-                        <div class="item-feature-img"><img src="img/main/icon_quality.png" alt="quality"></div>
-                        <div class="item-feature-text item-feature-text-page_product ">
-                            <p>Quality assurance</p>
-                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                                extensive models.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section>
         <div class="subscribe">

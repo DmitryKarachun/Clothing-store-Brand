@@ -474,7 +474,7 @@ h6 {
 }
 
 /* --------OFFER---------------------------------- */
-.offer {}
+
 
 .offer__container {
     margin-top: 100px;
@@ -550,7 +550,7 @@ h6 {
 
 
 /* --------Product---------------------------- */
-.product {}
+
 
 .product__container {
     margin-top: 100px;
@@ -736,7 +736,7 @@ h6 {
     display: flex;
 }
 
-.feature__body {}
+
 
 .feature__container-banner {
     position: relative;
@@ -953,7 +953,7 @@ h6 {
     color: #222224;
 }
 
-.subscribe__subtitle {}
+
 
 .subscribe__form {
     display: flex;
@@ -1322,7 +1322,7 @@ h6 {
     margin: 43px 0 63px 0;
 }
 
-.product_discription-form-filter {}
+
 
 .product_filter {
     display: flex;
@@ -1385,6 +1385,7 @@ h6 {
 .wrapper_inner {
     display: flex;
     margin-top: 71px;
+    margin-bottom: 110px;
     justify-content: space-between;
 }
 
@@ -1629,11 +1630,67 @@ h6 {
     border-right: 1px solid #ebebeb;
 }
 
+.bottom_nav_block {
+    display: flex;
+}
+
+.pagination {
+    text-align: center;
+    user-select: none;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    padding: 12px 10px;
+}
+
+
+
+.pagination li {
+    display: inline-block;
+
+}
+
+.pagination li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.pagination li a {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #c4c4c4;
+    padding: 5px;
+}
 
 .feature-page_product {
     height: 341px;
     background-color: #222224;
 }
+
+.previous-page a i {
+    color: #aaaaaa;
+}
+
+.previous-page,
+.next-page {
+    transition: 0.3s ease;
+}
+
+.page-link:hover {
+    color: #ef5b70;
+}
+
+.previous-page:hover {
+    color: #ef5b70;
+    transform: translateX(-5px);
+}
+
+.next-page:hover {
+    color: #ef5b70;
+    transform: translateX(5px);
+}
+
+
 
 .feature__container-page_product {
     align-items: center;
@@ -1651,4 +1708,133 @@ h6 {
 .item-feature-text-page_product {
     margin: 32px 15px 15px;
     text-align: center;
+}
+
+/* -------------------------------------
+     PAGE Shopping Cart
+-------------------------------------- */
+
+.resp-tab {
+    margin-top: 90px;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: #ffffff;
+}
+
+.resp-tab td,
+.resp-tab th {
+    text-align: left;
+    font-size: 13px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+    color: #222222;
+}
+
+.resp-tab td {
+    padding: 22px 0px;
+    font-size: 13px;
+}
+
+.shoping_cart-card {
+    display: flex;
+}
+
+.shoping_cart-card img {
+    width: 100px;
+    max-width: 100px;
+    height: 115px;
+}
+
+.shoping_cart-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+
+}
+
+.shoping_cart-description h3 {
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.shoping_cart-description>p span {
+    line-height: 20px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.shoping_cart-quantity {
+    width: 54px;
+}
+
+
+@media (max-width: 767px) {
+    .resp-tab {
+        display: block;
+        width: 100%;
+    }
+
+    .shoping_cart-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shoping_cart-description {
+        padding: 0;
+    }
+
+    .resp-tab thead,
+    .resp-tab tbody,
+    .resp-tab thead th {
+        display: block;
+    }
+
+    .resp-tab thead {
+        float: left;
+    }
+
+    .resp-tab tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+
+    .resp-tab td,
+    .resp-tab th {
+        padding: 10px 2px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 160px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+
+    .resp-tab thead th {
+        text-align: center;
+    }
+
+    .resp-tab thead :first-child {
+        height: 196.59px;
+    }
+
+    .resp-tab tbody tr {
+        display: table-cell;
+    }
+
+    .resp-tab td {
+        display: block;
+        text-align: center;
+    }
 }
