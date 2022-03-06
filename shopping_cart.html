@@ -71,12 +71,66 @@
                 <div class="header__top-right">
                     <div class="shoping_cart">
                         <a href="shopping_cart.html"><img src="img/header/shoping_cart.png" alt="shoping_cart"></a>
-                    </div>
+                        <div class="mega-cart">
+                            <div class="mega-cart-items">
+                                <div class="item-cart">
+                                    <div class="item-cart-img">
+                                        <img src="img/product/product_17.jpg" alt="rebox zane">
+                                    </div>
+                                    <div class="item-cart-content">
+                                        <div class="item-cart-title">Rebox Zane</div>
+                                        <div class="item-cart-rank">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="item-cart-amount">1 x $250</div>
+                                    </div>
+                                    <div class="item-cart-action"><i class="fa fa-times-circle-o"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="item-cart">
+                                    <div class="item-cart-img">
+                                        <img src="img/product/product_19.png" alt="rebox zane">
+                                    </div>
+                                    <div class="item-cart-content">
+                                        <div class="item-cart-title">Rebox Zane</div>
+                                        <div class="item-cart-rank">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="item-cart-amount">1 x $250</div>
+                                    </div>
+                                    <div class="item-cart-action"><i class="fa fa-times-circle-o"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                            </div>
 
+                            <div class="mega-cart-price">
+                                <p>Total</p>
+                                <p>$500</p>
+                            </div>
+                            <form action="checkout.html">
+                                <button type="submit" class="mega-cart-button">Checkout</button>
+                            </form>
+                            <form action="shopping_cart.html">
+                                <button type="submit" class="mega-cart-button">Go to cart</button>
+                            </form>
+                        </div>
+                    </div>
                     <form action="#">
                         <button class="my_account"> My Account
                             <i class="fa fa-caret-right" aria-hidden="true"></i>
-                        </button></form>
+                        </button>
+                    </form>
+                    <button class="menu-bar"><i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+                    </button>
+
 
 
                 </div>
@@ -365,8 +419,8 @@
             <div class="breadcrumbs__container container">
                 <div class="breadcrumbs-title">New Arrivals</div>
                 <ul class="breadcrumbs-link">
-                    <li class="breadcrumbs-list"><a href="#">Home</a></li>
-                    <li class="breadcrumbs-list"><a href="#">Men</a></li>
+                    <li class="breadcrumbs-list"><a href="index.html">Home</a></li>
+                    <li class="breadcrumbs-list"><a href="index.html">Men</a></li>
                     <li class="breadcrumbs-list">New arrivials</li>
                 </ul>
 
@@ -393,7 +447,7 @@
                         <td>
                             <div class="shoping_cart-card">
                                 <div class="shoping_cart-img">
-                                    <img src="img/product/product_13.jpg" alt="">
+                                    <a href="single_page.html"> <img src="img/product/product_13.jpg" alt=""></a>
                                 </div>
                                 <div class="shoping_cart-description">
                                     <h3>Mango People T-shirt</h3>
@@ -407,7 +461,8 @@
                         </td>
                         <td>
                             <form action="#">
-                                <input type="number" class="shoping_cart-quantity" name="number" id="" placeholder="2">
+                                <input type="number" class="shoping_cart-quantity" min="0" max="10" name="number" id=""
+                                    placeholder="2">
                             </form>
                         </td>
                         <td>
@@ -424,7 +479,7 @@
                         <td>
                             <div class="shoping_cart-card">
                                 <div class="shoping_cart-img">
-                                    <img src="img/product/product_14.jpg" alt="">
+                                    <a href="single_page.html"><img src="img/product/product_14.jpg" alt=""></a>
                                 </div>
                                 <div class="shoping_cart-description">
                                     <h3>Mango People T-shirt</h3>
@@ -437,8 +492,9 @@
                             <p class="shoping_cart-price">$150</p>
                         </td>
                         <td>
-                            <form action="#" class="shoping_cart-quantity">
-                                <input type="number" name="number" id="" placeholder="2">
+                            <form action="#">
+                                <input type="number" class="shoping_cart-quantity" name="number" min="0" max="10" id=""
+                                    placeholder="2">
                             </form>
                         </td>
                         <td>
@@ -455,7 +511,7 @@
                         <td>
                             <div class="shoping_cart-card">
                                 <div class="shoping_cart-img">
-                                    <img src="img/product/product_15.jpg" alt="">
+                                    <a href="single_page.html"><img src="img/product/product_15.jpg" alt=""></a>
                                 </div>
                                 <div class="shoping_cart-description">
                                     <h3>Mango People T-shirt</h3>
@@ -468,8 +524,9 @@
                             <p class="shoping_cart-price">$150</p>
                         </td>
                         <td>
-                            <form action="#" class="shoping_cart-quantity">
-                                <input type="number" name="number" id="" placeholder="2">
+                            <form action="#">
+                                <input type="number" class="shoping_cart-quantity" name="number" min="0" max="10" id=""
+                                    placeholder="2">
                             </form>
                         </td>
                         <td>
@@ -483,10 +540,36 @@
                         </td>
                     </tr>
                 </tbody>
-
-
-
             </table>
+            <div class="shoping_cart_button_container">
+                <button class="shoping_cart_button">CLEAR SHOPPING CART</button>
+                <button class="shoping_cart_button">CONTINUE SHOPPING</button>
+            </div>
+            <form action="checkout.html" class="shoping_cart_form_container">
+                <div class="adress_form">
+                    <label for="adress">Shipping Adress</label>
+                    <p><select name="city" id="adress" class="input_adress_form">
+                            <option value="Belarus">Belarus</option>
+                            <option value="Ukraine">Ukraine</option>
+                        </select>
+                    </p>
+                    <p><input type="text" placeholder="State" class="input_adress_form"></p>
+                    <p><input type="text" placeholder="Postcode/Zip" class="input_adress_form"></p>
+                    <button class="shoping_cart_button-small">Get a quote</button>
+                </div>
+                <div class="discont_form">
+                    <label for="discont">coupon discount</label>
+                    <p class="discont_form-subtitle">Enter your coupon code if you have one</p>
+                    <p><input type="text" placeholder="State" class="input_adress_form"></p>
+                    <button type="submit" class="shoping_cart_button-small">Apply coupon</button>
+                </div>
+                <div class="checkout_form">
+                    <p>Sub total <span>$900</span></p>
+                    <h3>GRAND TOTAL <span>$900</span></h3>
+                    <a href="checkout.html" class="shoping_cart_button-link"><button
+                            class="shoping_cart_button-big">proceed to checkout</button></a>
+                </div>
+            </form>
         </div>
     </div>
 
