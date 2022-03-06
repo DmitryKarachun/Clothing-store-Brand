@@ -15,6 +15,10 @@
     .footer__top__container {
         flex-wrap: wrap;
     }
+
+    .footer__top__container>* {
+        padding: 0 5px;
+    }
 }
 
 .footer__top-about-brand {
@@ -126,4 +130,20 @@
 
 .google_icon :hover {
     color: #f16d7f;
+}
+
+@media (max-width: 768px) {
+
+    .footer__top,
+    .footer__bottom {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__top__container {
+        flex-direction: column;
+    }
+
+
 }
