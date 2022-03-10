@@ -173,6 +173,7 @@ h6 {
 }
 
 .button_browse {
+    display: block;
     color: #222222;
     margin-left: 37px;
     display: flex;
@@ -182,6 +183,7 @@ h6 {
     border-radius: 3px 0px 0px 3px;
     padding: 14px;
     position: relative;
+    cursor: pointer;
 }
 
 .button_browse-text {
@@ -458,6 +460,7 @@ h6 {
 
 .shoping_cart:hover .mega-cart {
     display: block;
+    z-index: 3;
 
 }
 
@@ -775,13 +778,13 @@ h6 {
     letter-spacing: 0.025em;
 }
 
-.offer_items-text>p:first-child {
+.offer_items-text>h3:first-child {
     font-size: 18px;
     color: #222222;
     margin-bottom: 10px;
 }
 
-.offer_items-text>p:last-child {
+.offer_items-text>h3:last-child {
     font-size: 30px;
     color: #f16d7f;
 }
@@ -833,19 +836,19 @@ h6 {
     background-color: #f16d7f;
 }
 
-.man:hover .offer_items-text p:nth-child(2) {
+.man:hover .offer_items-text h3:nth-child(2) {
     color: white;
 }
 
-.woman:hover .offer_items-text p:nth-child(2) {
+.woman:hover .offer_items-text h3:nth-child(2) {
     color: white;
 }
 
-.accesories:hover .offer_items-text p:nth-child(2) {
+.accesories:hover .offer_items-text h3:nth-child(2) {
     color: white;
 }
 
-.kids:hover .offer_items-text p:nth-child(2) {
+.kids:hover .offer_items-text h3:nth-child(2) {
     color: white;
 }
 
@@ -2152,11 +2155,10 @@ h6 {
     margin-left: 20px;
 }
 
-.shoping_cart_button-link {
-    display: block;
-}
+
 
 .shoping_cart_button-big {
+    display: block;
     background-color: #ffffff;
     border: 1px solid #eaeaea;
     font-size: 16px;
