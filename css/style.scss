@@ -299,19 +299,19 @@ h6 {
     }
 }
 
-@media (max-width:670px) {
+@media (max-width:700px) {
     .logo_text {
         display: none;
     }
 }
 
-@media (max-width:582px) {
+@media (max-width:610px) {
     .header-search {
-        max-width: 100px;
+        max-width: 90px;
     }
 }
 
-@media (max-width:482px) {
+@media (max-width:526px) {
     .header-search {
         display: none;
     }
@@ -494,9 +494,10 @@ h6 {
 
 .menu-bar {
     display: none;
+    background-color: transparent
 }
 
-@media (max-width:768px) {
+@media (max-width:1140px) {
     .header__buttom {
         display: none;
     }
@@ -507,7 +508,7 @@ h6 {
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:812px) {
     .button_browse {
         display: none;
     }
@@ -909,7 +910,7 @@ h6 {
 
 .product__body {
     display: flex;
-    margin: 0 -16px;
+
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -920,7 +921,7 @@ h6 {
     margin-bottom: 40px;
     position: relative;
     box-shadow: transparent;
-    transition: all .9s;
+    transition: all .2s;
 }
 
 .product__link {
@@ -934,8 +935,6 @@ h6 {
 }
 
 .product__column:hover {
-    width: 263px;
-    height: 364px;
     background-color: #ffffff;
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 
@@ -2343,6 +2342,11 @@ details summary::-webkit-details-marker {
     background-color: #f16d7f;
     color: #ffffff;
 
+}
+
+.forgot_password:hover {
+    color: #f16d7f;
+    cursor: pointer;
 }
 
 .right_form__checkout input {

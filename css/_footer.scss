@@ -1,6 +1,5 @@
 .footer {
     margin-top: 110px;
-    height: 435px;
 }
 
 .footer__top {
@@ -41,10 +40,12 @@
 
 .footer__top-information {
     flex: 0 0 20%;
+    padding-left: 20px;
 }
 
 .footer__top-shop-category {
     flex: 0 0 20%;
+    padding-left: 20px;
 }
 
 
@@ -135,7 +136,7 @@
 @media (max-width: 768px) {
 
     .footer__top,
-    .footer__bottom {
+    .footer__bottom__container {
         margin: 0 15px;
     }
 }
